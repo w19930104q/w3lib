@@ -1,6 +1,18 @@
 w3lib release notes
 ===================
 
+2.7.0 (unreleased)
+------------------
+
+New features:
+
+- Added :func:`w3lib.links.iter_links`, a streaming extractor of crawlable
+  links: it reads an HTML document as an iterable of chunks and yields the
+  absolute, fragment-free URLs of its ``<a>`` and ``<area>`` links, deduped
+  and in document order, as soon as they are parsed, with memory use bounded
+  by the largest single tag rather than by the document size.
+
+
 2.6.0 (2026-11-05)
 ------------------
 

@@ -21,6 +21,14 @@ w3lib Package
 .. automodule:: w3lib.http
     :members:
 
+
+:mod:`~w3lib.links` Module
+--------------------------
+
+.. automodule:: w3lib.links
+    :members:
+
+
 :mod:`~w3lib.url` Module
 ------------------------
 
